@@ -647,12 +647,12 @@ max-width: 100%;
   }
 }
 
-@media only screen and (min-width:375px) and (max-width:492px) {
+@media only screen and (min-width:365px) and (max-width:493px) {
   .lnk i{
     text-align: center;
   }
   .lnk{
-    padding-left: auto;
+    padding-left: 30vw;
     margin: auto;
   }
 }
