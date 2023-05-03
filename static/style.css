@@ -44,6 +44,7 @@ body{
 
 .text-container img{
   margin-left: 250px;
+  padding-bottom: 0px;
 }
 
 .home-left img{
@@ -644,6 +645,12 @@ max-width: 100%;
 
   .flex-box img{
     margin-top: 10px;
+  }
+
+  .text-container img{
+    height: 100px;
+    width: 100px;
+    padding-bottom: 0px;
   }
 }
 
