@@ -666,10 +666,21 @@ max-width: 100%;
   }
 }
 
-/* 
-.sales-img-class img{
-  max-height: 400px;
-    max-width: 550px;
+@media screen and (max-width:750px) {
+  .flex-footer{
+    justify-content:space-around;
+  }
 
-} */
+  
+}
 
+@media screen and (max-width:330px) {
+  .products {
+    margin-top: 5px;
+  }
+
+  .products h4{
+     margin-bottom:0px;
+  }
+  
+}
