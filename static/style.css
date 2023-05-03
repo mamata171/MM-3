@@ -656,3 +656,10 @@ max-width: 100%;
     margin: auto;
   }
 }
+
+
+.sales-img-class img{
+  max-height: 400px;
+    max-width: 550px;
+
+}
