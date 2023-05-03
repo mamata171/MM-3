@@ -21,7 +21,7 @@ body{
 }
 
 .wave1 {
- 
+  padding-bottom: 500px;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -47,9 +47,27 @@ body{
 }
 
 .home-left img{
-    margin-bottom: 100px;
-    width: 30vw;
+  margin-bottom: 100px;
+  width: 30vw;
 }
+
+@media screen and (max-width:901px) {
+  .home-left img{
+    margin-bottom: 0px;
+  }
+  .wave1{
+    display: none;
+  }
+
+  .home{
+    height: 150vh;
+  }
+  
+  .more-work{
+    margin-top: 10px;
+  }
+}
+
 
 .home-right{
     text-align: center;
@@ -622,9 +640,9 @@ max-width: 100%;
 }
 
 @media screen and (max-width:901px){
-  .more-work{
-    margin-top: 170px;
 
+  .lnk{
+    padding-left: 90px;
   }
 
   .flex-box img{
