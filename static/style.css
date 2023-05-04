@@ -11,10 +11,7 @@ body{
   height: 100vh;
   width: 100%;
   background-color:rgb(245, 225, 202);
-    /* height: 100vh;
-    width: 100%; */
     display: flex;
-  
     align-items: center;
      justify-content:space-around;
 
@@ -106,7 +103,6 @@ max-width: 100%;
   .welcome h1 {
     white-space: nowrap;
     overflow: hidden;
-    /* animation:  write 3s steps(20) forwards; */
     animation: typing 2s steps(24, end), blink-caret 0.5s step-end infinite alternate;
 
   }
@@ -216,6 +212,7 @@ max-width: 100%;
 .ment-toon{
     margin-top: 20px;
     /* background-color: #9ad9dbcd; */
+    /* background-color: #ccfbff; */
 }
 
 .ment-toon .flex-box{
@@ -257,8 +254,6 @@ max-width: 100%;
 }
 
 /* ***************** Home image ************* */
-
-
 
 @media screen and (max-width:900px){
    .fb2{
@@ -506,12 +501,7 @@ max-width: 100%;
   }
   
 }
-/* 
-@media screen and (max-width:1000px) {
-  .para3{
-    display: none;
-  }  
-} */
+
 
 .icons a {
   width: 30px;
@@ -613,8 +603,6 @@ max-width: 100%;
 }
 
 
-
-
 /* ********************************************************* */
 .propelling-section{
   width: 100vw;
@@ -622,10 +610,39 @@ max-width: 100%;
   background-color: antiquewhite;
 
 }
-
+.prop-p{
+  width: 30vw;
+  margin-left: 70px;
+}
 .prop-div{
-  margin:auto;
-  width: 60vw;
+  text-align: center;
+  /* width: 60vw; */
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+}
+
+@media screen and (max-width:1260px) {
+  .prop-p{
+    width: 80vw;
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .prop-p p{
+    text-align: center;
+  }
+  .prop-div{
+    flex-direction: column;
+  }
+  
+}
+
+@media screen and (max-width:370px) {
+  .prop-div{
+    padding: 5px 5px !important;
+  }
+  
 }
 
 .other-content{
