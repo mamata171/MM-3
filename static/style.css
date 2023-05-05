@@ -657,6 +657,8 @@ max-width: 100%;
 
 .other-content{
   width: 60vw;
+  text-align: center;
+  margin: auto;
 }
 
 @media screen and (max-width:600px){
