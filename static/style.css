@@ -806,7 +806,8 @@ max-width: 100%;
 
 .wrapper{
 display: flex;
-max-width: 1200px;
+/* max-width: 1200px; */
+max-width: 95%;
 position: relative;
 /* text-align: center; */
 margin: auto;
