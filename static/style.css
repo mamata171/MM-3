@@ -179,8 +179,8 @@ max-width: 100%;
 }
 
 .img-right img{
-    height: 300px;
-    width: 250px;
+    height: 330px;
+    width: 270px;
     margin-left: 50px;
     margin-bottom: 5px;
     margin-top: 10px;
@@ -198,9 +198,12 @@ max-width: 100%;
 
 .content-flex{
     max-width: 500px;
-    
+    /* text-align: justify; */
 }
 
+.justify{
+  text-align: justify;
+}
 .img-flex img{
     max-height: 400px;
     max-width: 550px;
@@ -516,6 +519,16 @@ max-width: 100%;
   border: 2px solid white;
 }
 
+@media screen and (max-width:545px) {
+
+.youtube-img img{
+  width: 200px;
+}
+}
+
+@media screen and (max-width:510px){
+  
+}
 .icons a {
   width: 30px;
   height: 30px;
@@ -800,7 +813,7 @@ max-width: 100%;
 
 
 
-/*************************** Image Carsl */
+/*************************** Image Carsl ******************/
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
@@ -858,7 +871,8 @@ pointer-events: none;
 .carousel img{
 /* height: 340px; */
 max-height: 300px;
-    max-width: 500px;
+    max-width: 500px;border-radius: 10px;
+
 object-fit: cover;
 user-select: none;
 margin-left: 10px;
@@ -881,9 +895,18 @@ width: 100%;
 }
 
 .brand{
-  text-align: right;
+  /* text-align: right; */
+  display: flex;
+  justify-content: space-between;
   padding: 0px 4px;
 }
+
+.brand a img{
+  width: 50px;
+  height: 50px;
+  
+}
+
 
 hr{
   color: white;
@@ -928,4 +951,9 @@ hr{
     margin-top: 13px !important;
   }
   
+}
+
+.fb{
+  height: 40px !important;
+  width: 35px !important;
 }
