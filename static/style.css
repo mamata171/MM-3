@@ -650,7 +650,7 @@ max-width: 100%;
   .prop-p{
     width: 80vw;
     margin-left: 0px;
-    text-align: center;
+    text-align: center !important;
   }
 
   .prop-p p{
@@ -664,9 +664,9 @@ max-width: 100%;
 }
 
 @media screen and (max-width:370px) {
-  .prop-div{
+  /* .prop-div{
     padding: 5px 5px !important;
-  }
+  } */
   
 }
 
@@ -905,7 +905,7 @@ width: 100%;
 }
 
 
-hr{
+.flex-footer hr{
   color: white;
   background-color: #1da1f2;
 }
@@ -953,4 +953,29 @@ hr{
 .fb{
   height: 40px !important;
   width: 35px !important;
+}
+
+.more-work hr{
+  margin: auto;
+  width: 90vw;
+}
+
+.vertical-line {
+  border-left: 1px solid black;
+  height: 250px;
+  /* font-size: 30px; */
+
+}
+
+.vertical-line-small{
+  border-left: 1px solid black;
+  height: 150px;
+}
+
+
+@media screen and (max-width:900px) {
+  .vertical-line{
+    display: none;
+  }
+  
 }
