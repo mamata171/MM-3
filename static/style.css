@@ -796,6 +796,28 @@ max-width: 100%;
   width: 45px;
 }
 
+.bubbles2{
+  position: relative;
+}
+
+@keyframes bubble2{
+  0%{
+    transform: translate(y);
+    opacity: 0;
+  }
+  50%{
+   
+    opacity: 1;
+  }
+  70%{
+    
+    opacity: 1;
+  }
+  100%{
+    transform: translateY(-208vh);
+    opacity: 0;
+  }
+}
 
 @media screen and (max-width:450px) {
   .ms2{
@@ -950,7 +972,7 @@ width: 100%;
   
 }
 
-.fb{
+.fb-img{
   height: 40px !important;
   width: 35px !important;
 }
@@ -978,4 +1000,14 @@ width: 100%;
     display: none;
   }
   
+}
+
+.brand a img:hover{
+  transform: rotate(90deg);
+  /* transform: scale(2); */
+  
+} 
+
+.fb-a:hover{
+  text-decoration: none;
 }
