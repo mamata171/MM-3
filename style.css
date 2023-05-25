@@ -242,7 +242,10 @@ max-width: 100%;
     transition: all 0.5s ease-in-out;
 
 }
+.mentoon-toonland img{
+  border-radius: 15px;
 
+}
 .mentoon-toonland:hover{
     cursor: pointer;
     /* box-shadow:14px 14px 8px; */
@@ -262,6 +265,7 @@ max-width: 100%;
    max-width: 502px;
    padding-bottom: 0px;
    background-color: #ccfbff;
+
 }
 
 /* ***************** Home image ************* */
@@ -849,7 +853,7 @@ font-family: "Poppins", sans-serif;
 .wrapper-sec{
   margin-top: 20px;
   background-color: #60eaf7;
-  padding: 30px 10px;
+  padding: 50px 10px;
 }
 .wrapper {
 max-width: 1100px;
