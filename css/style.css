@@ -240,6 +240,7 @@ max-width: 100%;
     border-radius: 15px;
     box-shadow: 3px 3px 8px rgb(60, 56, 56);
     transition: all 0.5s ease-in-out;
+    max-width: 490px;
 
 }
 
@@ -259,7 +260,7 @@ max-width: 100%;
 
 .content-men-toon{
     text-align: center;
-   max-width: 502px;
+   max-width: 490px;
    padding-bottom: 0px;
    /* background-color: #ccfbff; */
    background-color: #74e8f3;
