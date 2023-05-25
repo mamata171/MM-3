@@ -264,6 +264,8 @@ max-width: 100%;
    padding-bottom: 0px;
    /* background-color: #ccfbff; */
    background-color: #74e8f3;
+   border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
 }
 
 /* ***************** Home image ************* */
